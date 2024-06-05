@@ -58,8 +58,8 @@ CREATE TABLE Supplier_Details (
 );
 INSERT INTO supplier_details (first_name, last_name, address, phone, country)
 VALUES ('Ambur', 'Oluwadamilola', 'OFada, Mowe', '081-1234-5678', 'Nigeria'),
-       ('Adebayo', 'Oluwayemisi', 'Ifewara,Osun', '090-3997-6189', 'Nigeria'),
-       ('Olaide', 'Taiwo', 'Agbeni, Ibadan', '081-1985-4641', 'Canada');
+       ('Adewole', 'Ayomide', 'Ikeja,Lagos', '090-3997-6189', 'Canada'),
+       ('Adewole', 'Demilade', 'Ikeja, Lagos', '081-1985-4641', 'Canada');
 
 SELECT *FROM Supplier_Details;
 DESC Supplier_Details1;
